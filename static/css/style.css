@@ -1,0 +1,27 @@
+body {
+    background:url("./login.jpg");
+}
+body > .container{
+    padding-top: 100px;
+}
+.shadow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+}
+.password-control1 {
+    position: absolute;
+    top: 150px;
+    right: 6px;
+    left: 510px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("./gla.svg") 0 0 no-repeat;
+}
+.password-control1.view {
+    background: url("./gl.svg") 0 0 no-repeat;
+}
